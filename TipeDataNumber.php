@@ -25,3 +25,9 @@
 
   echo "Underscore di Floating Point : ";
   var_dump(1_234.567);
+
+  echo "Integer Overflo 32 Bit : ";
+  var_dump(2147483648);
+
+  echo "Integer Overflo 64 Bit : ";
+  var_dump(9223372036854775808);
